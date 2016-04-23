@@ -78,14 +78,15 @@ public class CrudAutoImplApplication {
 			<section data-markdown>
 				<script type="text/template">
 ## Shorcuts reminder
-| Shortcut | Description       |
-| ---------| -----------------:|
-| Left     | Previous          |
-| Right    | Next slide        |
-| Up       | Previous basement |
-| Down     | Next basement     |
-| Esc      | Overview          |
-| F        | Full screen       |
+| Shortcut    | Description       |
+| ----------- | -----------------:|
+| Left        | Previous          |
+| Right       | Next slide        |
+| Up          | Previous basement |
+| Down        | Next basement     |
+| Esc         | Overview          |
+| F           | Full screen       |
+| Alt + click | Zoom (zoom.js)    |
 				</script>
 			</section>
 			</div>
@@ -101,6 +102,7 @@ public class CrudAutoImplApplication {
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
+					{ src: 'plugin/zoom-js/zoom.js' },
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
