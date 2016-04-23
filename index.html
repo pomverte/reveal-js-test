@@ -58,6 +58,23 @@
 				<p class="fragment" data-fragment-index="1">Appears first</p>
 				<p class="fragment" data-fragment-index="2">Appears second</p>
 			</section>
+			<section>
+				<h2>But ... it's a main method !?!</h2>
+				<pre><code class="java hljs" data-trim data-noescape>
+package com.pomverte;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CrudAutoImplApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CrudAutoImplApplication.class, args);
+	}
+}
+			</code></pre>
+			</section>
 			</div>
 		</div>
 
